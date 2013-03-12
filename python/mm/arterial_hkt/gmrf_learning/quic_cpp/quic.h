@@ -1,0 +1,8 @@
+extern "C" {
+
+void QUIC(char mode, uint32_t& p, const double* S, double* Lambda0,
+	  uint32_t& pathLen, const double* path, double& tol,
+	  int32_t& msg, uint32_t* iter, double* X,
+	  double* W, double* opt, double* cputime);
+}
+

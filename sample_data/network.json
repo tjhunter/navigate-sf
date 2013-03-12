@@ -1,0 +1,2 @@
+{"id": {    "primary": 1,    "secondary": 0    },    "length": 1,    "startNodeId": {    "primary": 1,    "secondary": 0    },    "endNodeId": {    "primary": 2,    "secondary": 0    },    "geom": {"points": [{"lat": 0, "lon": 0},{"lat": 1, "lon": 0}]}}
+{"id": {    "primary": 2,    "secondary": 0    },"length": 1,"startNodeId": {    "primary": 2,    "secondary": 0    },"endNodeId": {    "primary": 3,    "secondary": 0    },"geom": {    "points": [      {"lat": 1, "lon": 0},      {"lat": 2, "lon": 0}    ]    }}
