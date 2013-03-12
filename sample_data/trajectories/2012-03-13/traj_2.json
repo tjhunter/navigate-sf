@@ -1,0 +1,2 @@
+{"point": {    "time": {        "year": 2012, "month": 3, "day": 13, "hour": 12, "minute": 13, "second": 14    },    "spots": [{        "linkId": {            "primary": 1,            "secondary": 0            },        "offset": 0.5    }]}
+{"point": {    "time": {        "year": 2012, "month": 3, "day": 13, "hour": 12, "minute": 13, "second": 14    },    "spots": [{        "linkId": {            "primary": 2,            "secondary": 0            },        "offset": 0.5    }]}
