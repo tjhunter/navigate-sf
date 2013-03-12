@@ -291,12 +291,7 @@ if __name__ == '__main__':
   dates = data_source['dates']
   basic_geometry = experiment_design['basic_geometry']
   tspots_seqs = [ttob_seq for date in dates
-               for ttob_seq in getDayTSpots(data_source['feed'],
-                                                    basic_geometry['nid'],
-                                                    date,
-                                                    basic_geometry['net_type'],
-                                                    basic_geometry['box'],
-                                                    net)]
+               for ttob_seq in getDayTSpots(date,net)]
   traj_obs = [traj_ob for tspots_seq in tspots_seqs
                       for traj_ob in traj_conv.mapTrajectory(tspots_seq, **traj_conv_param)]
   traj_obs_one_mode = [traj_ob for tspots_seq in tspots_seqs
